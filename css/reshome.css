@@ -1,0 +1,353 @@
+@media screen and (max-width:600px){
+  .nav #ham{
+    display: block;
+    float: left;
+    margin: 5px 0 0 5px;
+}
+  #menu-back{
+    display: none;
+    position: fixed;
+    z-index: 200;
+    background-color: rgba(0, 0, 0, .5);
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 900px;
+    width: 100%;
+  }
+    .menu {
+        display: none;
+        z-index: 300;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 60%;
+        height: 900px;
+        background-color: rgba(0, 0, 0,.8);
+        text-align: center;
+    }
+    .menu ul {
+        list-style-type: none;
+        float: none;
+    }
+    .menu ul li {
+        margin: 40px 0;
+        display: block;
+    }
+    .menu a {
+        text-decoration: none;
+        color: grey;
+        font-size: 1.3em;
+    }
+    .menu a:hover {
+        color: black;
+    }
+    .nav > a{ 
+        display: inline-block;
+    }
+    #close {
+        display: block;
+        margin: 20px 0 0 5px;
+        height: 20px;
+        float: left;
+    }
+    .nav #logo{
+        width: 200px;
+        height: 100px;
+        margin: auto;
+        float: none;
+        line-height: 50px;
+        letter-spacing: 2px;
+        font-family: 'Gloria Hallelujah', cursive;
+      }
+      .nav .navbar{
+          display: none;
+    }
+    .nav #search{
+        float: none;
+        margin: 50px auto;
+        width: 95%;
+        border: 1px solid black;
+        box-sizing: border-box;
+        padding: 2.5px;
+      }
+      .nav #search input{
+        margin-right: 0px;
+         width: 75%; 
+        height: 25px;
+        border: none;
+        border-bottom: 0px solid black;
+        background-color: transparent;
+      }
+      .nav #search button{
+        border: 0;
+        width: 60px;
+        background-color: transparent;
+        text-shadow: 1px 1px 2px black;
+        color: #ffe314; 
+        border-radius: 20px;
+        padding: 0px 10px;
+        font-size: 20px;
+        cursor: pointer;
+      }
+      .jumbo_box{
+        position: relative;
+        width: 90%;
+        left: 0%;
+        margin:50px auto;
+        height: auto;
+      }
+      .jumbo_box h2{
+        margin-top: 150px;
+        font-size: 20px;
+        font-weight: 100;
+        letter-spacing: 3px;
+      }
+      .jumbo_box h1{
+        margin-top: 5px;
+        font-size: 50px;
+      }
+      .product_slider{
+        width: 200px;
+        height: 100px;
+        height: 400px;
+        box-sizing: border-box;
+        padding: 10px 0px;
+        margin:50px auto;
+        overflow: hidden;
+        background-color: white;
+      }
+      .weakly{
+        width: 90%;
+        margin: 100px auto;
+        height: auto;
+        box-sizing: border-box;
+      }
+      .hm_heading{
+        position: relative;
+        top: 10px;
+        bottom: 0px;
+        width: 100%;
+        height: 50px;
+        margin: auto;
+      }
+      
+      .hm_heading h3{
+        position: relative;
+        float: left;
+         width: 80%; 
+        margin:0 0px ;
+        text-align: center;
+          font-size: 15px;
+          font-weight: 700;
+      }
+      .hm_leftline{
+        position: relative;
+        float: left;
+         width:10%;
+         border-bottom: 1px solid grey; 
+         /* display: inline-block; */
+         margin-top: 8px;
+      }
+      .hm_rightline{
+        position: relative;
+        float: right;
+        width:10%;
+        border-bottom: 1px solid grey;
+         /* display: inline-block; */
+        margin-top: 8px;
+      }
+      .weakly .weakly_pro{
+        margin-right: 20px;
+        width: 100%;
+        height: 300px;
+        float: left;
+        text-align: center;
+      }
+      .brands{
+        width: 95%;
+        margin: 100px auto;
+        height: 300px;
+      }
+      
+      .brands .hm_heading h3{
+        position: relative;
+        float: left;
+         width: 60%; 
+        margin:0 0px ;
+        text-align: center;
+          font-size: 15px;
+          font-weight: 700;
+      }
+      .brands .hm_leftline{
+        position: relative;
+        float: left;
+         width:20%;
+         border-bottom: 1px solid grey; 
+         /* display: inline-block; */
+         margin-top: 10px;
+      }
+      .brands .hm_rightline{
+        position: relative;
+        float:right;
+        width:20%;
+        border-bottom: 1px solid grey;
+         /* display: inline-block; */
+        margin-top: 10px;
+      }
+      
+      .brands .brand_logo{
+        margin-right: 2px;
+        float: left;
+        width: 100%;
+        height: 200px;
+      }
+      
+  .grid-container {
+    display:block;
+    grid-gap: 5px;
+    background-color: #f4f4f4;
+    position: relative;
+    width: 100%;
+    height: auto;
+  }
+#footer .footer_upper{
+  width: 90%;
+  height: auto;
+  margin: auto;
+  position: relative;
+  top: 20px;
+}
+.footer_upper .footer_part1{
+  float: left;
+  width: 50%;
+  height: 300px;
+}
+.footer_part1 h3{
+font-size: 15px;
+} 
+.footer_part1 ul{
+ margin-top: 30px;
+}
+.footer_part1 ul li{
+  margin-top:10px;
+  font-size: 7px;
+
+}
+.footer_part1 ul li h5{
+  font-size: 13px;
+
+}
+.footer_part1 ul li p{
+  font-size: 14px;
+  margin-left: 20px;
+  color: grey;
+
+}
+.footer_part1 ul li a{
+  color: black;
+  font-size: 13px;
+  margin-left: 5px; 
+}
+.part3 p{
+  margin-top: 20px;
+  font-size: 13px;
+}
+.part3 #subscribe{
+  margin-top: 50px;
+  border-radius: 0px;
+  border: 0px solid grey;
+  width: 140px;
+  height: 70px;
+  overflow: hidden;
+}
+.part3 #subscribe input{
+  width: 130px;
+  border: none;
+  border-radius: 5px;
+  border: 1px solid grey;
+   height: 20px;
+   margin: 1.2px 4px;
+}
+.part3 #subscribe button{
+  width: 50px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 5px;
+  border: 1px solid grey;
+   height: 25px;
+}
+.part3 label{
+  position: relative;
+  top: 40px;
+  font-size: 12px;
+ }
+.footer_lower{
+  position: relative;
+  width: 100%;
+  height: 100px;
+  background-color: #f7f4f4;
+  bottom: 0;
+  padding: 0 0px;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+.footer_lower #logo,.footer_lower #social{
+  float: left;
+}
+.footer_lower #logo{
+  width: 100px;
+  height: 50px;
+    float: left;
+    line-height: 0px;
+    letter-spacing: 0px;
+    font-family: 'Gloria Hallelujah', cursive;
+  box-sizing: border-box;
+  text-align: left;
+}
+.footer_lower #logo h1{
+    font-size:20px;
+    color: #240047;
+    margin-top: 20px;
+    text-shadow: 2px 2px 1px #d6b200;
+   }
+.footer_lower #logo img{
+  width: 100%;
+  height: 100px;
+}
+.footer_lower #social ul{
+  margin-top: 10px;
+  margin-left: 80px;
+  width: 100px;
+  list-style: none;
+}
+#social ul li{
+   float: left;
+   margin-left:10px; 
+   width: 20px;
+   height: 20px;
+   line-height: 20px;
+   /* padding: 10px 10px; */
+   border-radius: 100%;
+   text-align: center; 
+   background-color: #d8d6d6;
+}
+#social ul li a{
+   color: white;
+}
+#social ul li:hover{
+      background: linear-gradient(to bottom left, #bc2a8d 29%, #fbad50 100%);
+      background-color: #e4405f;
+      color: white;
+      box-shadow: 2px 2px 5px black;
+}
+.footer_lower span{
+  float:left;
+  /*clear: both;*/
+  position: relative;
+  margin-top: 0px;
+  top: 0px;
+  left: -0px;
+  font-size: 10px;
+}
+}
